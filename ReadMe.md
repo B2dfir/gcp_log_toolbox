@@ -62,9 +62,6 @@ Step 2 - Convert the output to gcp_log_toolbox compatible format with the follow
 python gcp_log_toolbox.py --gcloudformatter -f .\input.json -o .\output.json
 ```
 
-This may cause errors for very big logs as gcp_log_toolbox.py currently has to read the whole file into memory before splitting it up. I'll try
-resolve this later.
-
 
 ## Analysis
 gcp_log_toolbox.py can produce the following statistics about a given json log.
