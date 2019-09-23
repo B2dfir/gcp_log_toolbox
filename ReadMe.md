@@ -62,6 +62,7 @@ Step 2 - Convert the output to gcp_log_toolbox compatible format with the follow
 python gcp_log_toolbox.py --gcloudformatter -f .\input.json -o .\output.json
 ```
 
+--gcloudformatter reads the input file line by line and reconstructs each json log sequentially, rather than attempting to read the entire array of logs into memory and iterate through the array.
 
 ## Analysis
 gcp_log_toolbox.py can produce the following statistics about a given json log.
