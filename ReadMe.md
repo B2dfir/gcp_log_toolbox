@@ -1,5 +1,5 @@
 # gcp_log_toolbox.py    
-gcp_log_toolbox.py is a python 3.5+ tool created to assist in the collection and manipulatation of Google Cloud Platform (GCP) logs in json format. It currently supports the following functions:  
+gcp_log_toolbox.py is a python 3.5.3+ tool created to assist in the collection and manipulatation of Google Cloud Platform (GCP) logs in json format. It currently supports the following functions:  
 
 `Collection` - Download StackDriver log exports from Google Cloud Storage  
 `Analysis` - Calculate basic statistics about json log file (for the purpose of understanding what to filter in/out of a log)  
